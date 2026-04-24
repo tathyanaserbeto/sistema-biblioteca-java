@@ -9,7 +9,7 @@ public class Emprestimo {
     private final LocalDateTime dataEmprestimo;
     private LocalDateTime dataDevolucao;
 
-    private static int contadorEmprestimoId = 0;
+    private static int contadorEmprestimoId = 1;
 
     public Emprestimo (Livro livro, Cliente cliente){
         this.idEmprestimo = contadorEmprestimoId++;

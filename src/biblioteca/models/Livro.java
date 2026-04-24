@@ -10,7 +10,7 @@ public class Livro {
     private LocalDateTime dataCadastro;
     private LocalDateTime dataAtualizacao;
 
-    private static int contadorLivroId = 0;
+    private static int contadorLivroId = 1;
 
     public Livro (String titulo, Autor autor){
         this.idLivro = contadorLivroId++;

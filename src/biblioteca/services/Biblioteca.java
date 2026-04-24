@@ -47,9 +47,7 @@ public class Biblioteca {
     }
 
     public void listarEmprestimosPorCliente(String nomeCliente) {
-
         boolean encontrou = false;
-
         for (Emprestimo e : emprestimos) {
             if (e.getCliente().getNome().equalsIgnoreCase(nomeCliente)
                     && e.getDataDevolucao() == null) {
@@ -68,9 +66,7 @@ public class Biblioteca {
     }
 
     public void realizarEmprestimo(int idLivro, Cliente cliente){
-
         Livro livro = buscarLivroPorId(idLivro);
-
         if (livro == null || !livro.isDisponivel()) {
             System.out.println("Livro indisponível.");
             return;
@@ -114,6 +110,8 @@ public class Biblioteca {
         clientes.add(novo);
         return novo;
     }
+
+
 
     //InicializarDados
     public void inicializarDados(){
