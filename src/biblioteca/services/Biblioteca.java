@@ -30,7 +30,7 @@ public class Biblioteca {
     public void listarLivrosDisponiveis() {
         for (Livro l : livros) {
             if (l.isDisponivel()) {
-                System.out.println(l.getIdLivro() + " - " + l.getTitulo() + " - " + l.getAutor());
+                System.out.println(l.getIdLivro() + " - " + l.getTitulo());
             }
         }
     }
