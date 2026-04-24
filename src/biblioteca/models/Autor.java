@@ -5,7 +5,7 @@ public class Autor {
     private String nome;
     private String dataNascimento;
 
-    private static int contadorAutorId = 0;
+    private static int contadorAutorId = 1;
 
     public Autor (String nome, String dataNascimento){
         this.idAutor = contadorAutorId++;

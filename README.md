@@ -19,12 +19,12 @@ Projeto desenvolvido em **Java** para consolidar conceitos de **Programação Or
 
 O sistema inicia com dados pré-cadastrados (livros e autores) e apresenta um menu para o usuário:
 1. O usuário escolhe uma opção no menu:
-    - Emprestar livro
+    - Pegar livro emprestado
     - Devolver livro
     - Sair
 
 2. Para empréstimo:
-    - Lista livros disponíveis
+    - Lista de livros disponíveis
     - Usuário escolhe o ID do livro
     - Informa seu nome
     - Sistema registra o empréstimo
